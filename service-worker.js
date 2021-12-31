@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.130ef2e5486bcfb03bcf2dab6df01ba4.js"
+  "/precache-manifest.0afecb64bd0689b356506d9bc78dd23a.js"
 );
 
 workbox.clientsClaim();
@@ -37,6 +37,9 @@ workbox.routing.registerNavigationRoute("/index.html", {
 
 
 
+
+
+
 self.addEventListener('fetch', function(event) {
   if(event.request.url && (event.request.url.indexOf("/getImage64/")>=0 || event.request.url.indexOf("hrm-1128.appspot.com")>=0 )){
       event.respondWith(
@@ -50,3 +53,4 @@ self.addEventListener('fetch', function(event) {
           })
       );
   }
+});
