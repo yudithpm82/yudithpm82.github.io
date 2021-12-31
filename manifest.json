@@ -1,0 +1,41 @@
+{
+  "short_name": "QvaMarkets",
+  "name": "QvaMarkets",
+  "description": "Qva Mercado",
+  "icons": [    
+    {
+      "src": "qvaMarket_logo2.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "qvaMarket_logo2.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "qvaMarket_logo2.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "qvaMarket_logo2.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "qvaMarket_logo2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/#/marketplace",
+  "scope": "/",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "gcm_sender_id": "103953800507",
+  "display": "standalone",
+  "theme_color": "rgb(94, 53, 177,1)",
+  "background_color": "#f9f9f9"
+}
