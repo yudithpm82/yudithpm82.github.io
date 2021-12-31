@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f4c5a6d1e855e712720c0b0157db1998.js"
+  "/precache-manifest.eb074c0bc295054194a9e7d55cfc327c.js"
 );
 
 workbox.clientsClaim();
@@ -31,4 +31,21 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 workbox.routing.registerNavigationRoute("/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
+});
+
+
+
+self.addEventListener('fetch', function(event) {
+  if(event.request.url && (event.request.url.indexOf("/getImage64/")>=0 || event.request.url.indexOf("hrm-1128.appspot.com")>=0 )){
+      event.respondWith(
+          caches.open('qvamarkets_hrm').then(function(cache) {
+              return cache.match(event.request).then(function (response) {
+              return response || fetch(event.request).then(function(response) {
+                  cache.put(event.request, response.clone());
+                  return response;
+              });
+              });
+          })
+      );
+  }
 });
