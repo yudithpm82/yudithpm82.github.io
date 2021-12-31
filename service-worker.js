@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.eb074c0bc295054194a9e7d55cfc327c.js"
+  "/precache-manifest.adee428cf7b7c53cf91111fbe267bdb2.js"
 );
 
 workbox.clientsClaim();
@@ -35,10 +35,11 @@ workbox.routing.registerNavigationRoute("/index.html", {
 
 
 
+
 self.addEventListener('fetch', function(event) {
   if(event.request.url && (event.request.url.indexOf("/getImage64/")>=0 || event.request.url.indexOf("hrm-1128.appspot.com")>=0 )){
       event.respondWith(
-          caches.open('qvamarkets_hrm').then(function(cache) {
+          caches.open('jessie_nail').then(function(cache) {
               return cache.match(event.request).then(function (response) {
               return response || fetch(event.request).then(function(response) {
                   cache.put(event.request, response.clone());
