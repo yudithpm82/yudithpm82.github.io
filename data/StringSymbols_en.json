@@ -127,10 +127,12 @@
     "211":"Make a appointment",
 
     "212": "Hours available",
-    "213": "You wish to confirm this appointment",
+    "213": "Do you want confirm this appointment",
     "214": "You need to make a ($ 25) guarantee deposit (without refund) to confirm  your appointment.",
     "215": "Conditions",
     "216": "Type of payments",
+    "217":"Cancel",
+    "218":"Do you want cancel this appointment",
 
 
     "226": "Services we provide"
