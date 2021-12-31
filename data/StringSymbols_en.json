@@ -126,6 +126,12 @@
     "210":"Home",
     "211":"Make a appointment",
 
-    
+    "212": "Hours available",
+    "213": "You wish to confirm this appointment",
+    "214": "You need to make a ($ 25) guarantee deposit (without refund) to confirm  your appointment.",
+    "215": "Conditions",
+    "216": "Type of payments",
+
+
     "226": "Services we provide"
 }

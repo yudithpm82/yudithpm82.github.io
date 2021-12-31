@@ -155,16 +155,24 @@
 
 
     "201": "Pedicura",
-     "202": "Manicura",
-     "203": "Peluquería, manicura y pedicura",
-     "204": "Peluquería",
-     "205": "Iluminaciones",
-     "206": "Tratamiento de queratina",
-     "207": "botox",
-     "208": "tinte",
-     "209": "corte de pelo",
-     "210":"Inicio",
-     "211":"Hacer una cita",
+    "202": "Manicura",
+    "203": "Peluquería, manicura y pedicura",
+    "204": "Peluquería",
+    "205": "Iluminaciones",
+    "206": "Tratamiento de queratina",
+    "207": "botox",
+    "208": "tinte",
+    "209": "corte de pelo",
+    "210":"Inicio",
+    "211":"Hacer una cita",
 
-     "226": "Servicios que prestamos"
+
+
+    "212":"Horarios disponible",
+    "213":"Deseas confirmar esta cita",
+    "214":"Para que su cita sea confirmada necesita hacer un deposito de garantia (sin devolucion) de (25$)",
+    "215":"Condiciones",
+    "216": "Tipo de pagos",
+
+    "226": "Servicios que prestamos"
 } 
