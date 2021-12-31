@@ -52,7 +52,7 @@
     "60":"Dirección",
     "61":"Telefono",
     "62":"Entregar a",
-    "63":"Productos",
+    
     "64":"Usuario",
     "65":"Completar Orden",
     "66":"Orden Completada",
@@ -94,7 +94,7 @@
     "102":"fue añadido a su carro de compra",
     "103":"fueron añadidos a su carro de compra",
     "104":"Entregas",
-    "105":"Ofertas",
+   
     "106":"Ganancias",
     "107":"Informacion",
     "108":"Menu",
@@ -103,7 +103,44 @@
     "111":"Utilizar precio de costo",
     "112": "Enviar",
     "113": "Borrar",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    "63":"Productos",
+    "105":"Ofertas",
+
     "114":  "Debe estar logueado para hacer un reseña",
+
 
     "120": "Crear reseña",
     "121": "Calificación general",
@@ -111,6 +148,8 @@
     "123": "¿Qué le gustó o no le gustó?",
     "124": "Reseñas",
     "125": "Cita",
+
+
 
 
 
@@ -124,6 +163,8 @@
      "207": "botox",
      "208": "tinte",
      "209": "corte de pelo",
+     "210":"Inicio",
+     "211":"Hacer una cita",
 
      "226": "Servicios que prestamos"
 } 
