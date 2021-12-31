@@ -114,15 +114,16 @@
 
 
 
-    "201":"Pedicure",
-    "202":"Manicure",
-    "203":"Peluqueria, Manicure y pedicure",
-    "204":"Peluqueria",
-    "205":"highlights",
-    "206":"keratin treatment",
-    "207":"botox",
-    "208":"tinte",
-    "209":"haircut",
 
-    "226":"Servicios que prestamos"
+    "201": "Pedicura",
+     "202": "Manicura",
+     "203": "Peluquería, manicura y pedicura",
+     "204": "Peluquería",
+     "205": "Iluminaciones",
+     "206": "Tratamiento de queratina",
+     "207": "botox",
+     "208": "tinte",
+     "209": "corte de pelo",
+
+     "226": "Servicios que prestamos"
 } 
