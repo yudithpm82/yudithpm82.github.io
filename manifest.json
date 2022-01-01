@@ -4,27 +4,27 @@
   "description": "Jessie Nails",
   "icons": [    
     {
-      "src": "qvaMarket_logo2.png",
+      "src": "jessie_logo.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "qvaMarket_logo2.png",
+      "src": "jessie_logo.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "qvaMarket_logo2.png",
+      "src": "jessie_logo.png",
       "type": "image/png",
       "sizes": "64x64"
     },
     {
-      "src": "qvaMarket_logo2.png",
+      "src": "jessie_logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "qvaMarket_logo2.png",
+      "src": "jessie_logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
