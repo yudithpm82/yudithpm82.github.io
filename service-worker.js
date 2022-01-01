@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.40c08b59d6acac96539eba609b49350e.js"
+  "/precache-manifest.c54aae3be778549c51d489509f0a8bdf.js"
 );
 
 workbox.clientsClaim();
@@ -40,14 +40,14 @@ workbox.routing.registerNavigationRoute("/index.html", {
 
 
 self.addEventListener('fetch', function(event) {
-  if(event.request.url && (event.request.url.indexOf("/getImage64/")>=0 || event.request.url.indexOf("hrm-1128.appspot.com")>=0 )){
+  if(event.request.url.indexOf("hrm-1128.appspot.com/o/jessie_nails")>=0 ){
       event.respondWith(
           caches.open('jessie_nail').then(function(cache) {
               return cache.match(event.request).then(function (response) {
-              return response || fetch(event.request).then(function(response) {
-                  cache.put(event.request, response.clone());
-                  return response;
-              });
+                return response || fetch(event.request).then(function(response) {
+                    cache.put(event.request, response.clone());
+                    return response;
+                });
               });
           })
       );
