@@ -1,41 +1,25 @@
 {
-  "short_name": "jessienails",
-  "name": "Jessie's Nails",
-  "description": "Jessie's Nails in KY",
-  "icons": [    
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
     {
-      "src": "jessie_logo.png",
-      "type": "image/png",
-      "sizes": "16x16"
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     },
     {
-      "src": "jessie_logo.png",
-      "type": "image/png",
-      "sizes": "32x32"
-    },
-    {
-      "src": "jessie_logo.png",
-      "type": "image/png",
-      "sizes": "64x64"
-    },
-    {
-      "src": "jessie_logo.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "jessie_logo.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/#/marketplace",
-  "scope": "/",
-  "orientation": "portrait",
-  "lang": "en",
-  "dir": "ltr",
-  "gcm_sender_id": "103953800507",
+  "start_url": ".",
   "display": "standalone",
-  "theme_color": "rgb(94, 53, 177,1)",
-  "background_color": "#f9f9f9"
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
