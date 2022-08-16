@@ -1,0 +1,6 @@
+import{I as o,r as d,i as r,j as t,a as e}from"./index.cb875f66.js";const p=o(),u=l=>{const{data:s}=l,{modalID:a}=s,[n,c]=d.exports.useState(!1);return d.exports.useEffect(()=>{n||c(!0)},[]),r("userProfile"),t("div",{...a?{"dialog-key-id":a}:"",className:"pym81b sendBx upd_alert_bx",style:{background:"var(--color_backgrond_input)"},children:[e("style",{children:`
+        .palette{
+          --base-color: rgb(21, 100, 191,1);
+          --base-color-gradient: 21, 100, 191;
+        }
+        `}),e("div",{className:" _dsplFlx spaceAround",children:e("div",{className:"title_download_modal ",children:"Descargar aplicaciones"})}),e("div",{className:" update_ftp _dsplFlx spaceAround",children:e(i,{lbl:"Android",icon:"tablet_ipad",theme:"",updChanges:()=>window.open("/getStatic/hlgflix.apk")})}),e("div",{className:" update_ftp _dsplFlx spaceAround",children:e(i,{lbl:"Android TV",icon:"tv_app",theme:"",updChanges:()=>window.open("/getStatic/tv.hlgflix.apk")})})]})},i=({icon:l,lbl:s,updChanges:a})=>e("div",{className:"cardDown green",children:t("div",{className:"_dsplFlx",onClick:a,children:[e("div",{className:"icon_ds",children:e(p,{name:l})}),e("div",{className:"lbl",children:` ${s} `})]})});export{u as default};
