@@ -1,4 +1,4 @@
-import{I as o,r as d,k as r,j as i,a as e}from"./index.4b9c9f70.js";const p=o(),u=l=>{const{data:s}=l,{modalID:a}=s,[n,c]=d.exports.useState(!1);return d.exports.useEffect(()=>{n||c(!0)},[]),r("userProfile"),i("div",{...a?{"dialog-key-id":a}:"",className:"pym81b sendBx upd_alert_bx",style:{background:"var(--color_backgrond_input)"},children:[e("style",{children:`
+import{I as o,r as d,k as r,j as i,a as e}from"./index.be05ee3f.js";const p=o(),u=l=>{const{data:s}=l,{modalID:a}=s,[n,c]=d.exports.useState(!1);return d.exports.useEffect(()=>{n||c(!0)},[]),r("userProfile"),i("div",{...a?{"dialog-key-id":a}:"",className:"pym81b sendBx upd_alert_bx",style:{background:"var(--color_backgrond_input)"},children:[e("style",{children:`
         .palette{
           --base-color: rgb(21, 100, 191,1);
           --base-color-gradient: 21, 100, 191;
