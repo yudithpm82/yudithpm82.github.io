@@ -8,5 +8,6 @@
 .packagebox{width:96vw}:root[is-mobile=true]
 .date.pwo{color:var(--light-200);font-style:23;font-weight:600;text-align:left}:root[is-mobile=true]
 .customer_bx_dash{padding:19px 12px}:root[is-mobile=true]
-.package_detail_box{padding:12px 2px}.lbl_input{align-items:center;display:flex;font-size:18px;justify-content:center;text-align:center}.lbl_h23.sender{color:var(--primary-blue--backg-30);font-style:23}.lbl_h23.receiver{color:var(--partial-success);font-style:23}.dashboard_menu a{color:none;text-decoration:none}
-/*# sourceMappingURL=1676.e19c32b3.chunk.css.map*/
+.package_detail_box{padding:12px 2px}.lbl_input{align-items:center;display:flex;font-size:18px;justify-content:center;text-align:center}.lbl_h23.sender{color:var(--primary-blue--backg-30);font-style:23}.lbl_h23.receiver{color:var(--partial-success);font-style:23}.dashboard_menu a{color:none;text-decoration:none}.loading_bx[loading=true]
+.clients_container{opacity:.4;z-index:-1}
+/*# sourceMappingURL=4896.b61f8f7e.chunk.css.map*/
