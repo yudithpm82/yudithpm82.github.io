@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkstephanie_solution=self.webpackChunkstephanie_solution||[]).push([[1788],{1788:(e,n,a)=>{a.r(n),a.d(n,{default:()=>i});var t=a(184);const i=e=>{let{}=e;return(0,t.jsx)("div",{className:"pin-input-container",children:[1,2,3,4].map((e=>(0,t.jsx)(s,{index:e})))})},s=e=>{let{index:n}=e;return(0,t.jsx)("input",{type:"tel",maxLength:"1",className:"pin-number-input",tabIndex:n,dataUia:"pin-number-".concat(n),ariaLabel:"Entrada de PIN ".concat(n),value:""})}}}]);
+//# sourceMappingURL=1788.6f130499.chunk.js.map
